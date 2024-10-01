@@ -70,3 +70,29 @@ select{
     background-position-y: center;
     /* poderia colocar o seguinte: background-position: calc(100% - 10px) center; */
 }
+
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture{
+    width: 160px;
+}
+
+.description{
+    color: white;
+    max-width: 40%;
+    display: inline-block;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+
+.description h3{
+    font-size: 24px;
+}
